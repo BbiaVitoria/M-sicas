@@ -1,11 +1,18 @@
-body {
-  font-family: Arial, sans-serif;
+/* Resetando estilos padrões */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: 'Arial', sans-serif;
   background-color: #121212;
   color: #fff;
 }
 
+/* Cabeçalho */
 header {
   background-color: #1db954;
   padding: 20px;
@@ -13,7 +20,6 @@ header {
 }
 
 header h1 {
-  margin: 0;
   font-size: 2.5rem;
 }
 
@@ -24,6 +30,7 @@ nav a {
   font-size: 1.1rem;
 }
 
+/* Seção de recomendações */
 .recomendacoes {
   display: flex;
   justify-content: center;
@@ -34,11 +41,11 @@ nav a {
 .playlist {
   margin: 10px;
   text-align: center;
+  width: 200px;
 }
 
 .playlist img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
   border-radius: 10px;
 }
 
